@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #262A32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body::-webkit-scrollbar {
+    width: 0.8vw;
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color:#0de832;
+}
+
+.heading {
+    padding: 20px;
+    width: 65%;
+    text-align: center;
+}
+
+.heading h1 {
+    color: #0de832;
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+p {
+    color: #0de832;
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.cell {
+    width: 250px;
+    height: 70px;
+    margin: 7px; 
+    background-color: #323238;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.cell_p {
+    font-size: 18px;
+    color: #0de832;
+    font-family: 'Courier Prime', monospace;
+    padding: 2px;
+}
+
+input {
+    width: 236px;
+    background-color: #424249;
+    padding: 5px;
+    border: none;
+    border-radius: 7.5px;
+    outline: none;
+    display: flex;
+    color:#0de832;
+    font-family: 'Courier Prime', sans-serif;
+    font-size: 17px;
+}
+
+#search-box {
+    margin-top: 30px;
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.but-box {
+    display: flex;
+}
+
+.but {
+    text-align: center;
+    color:#0de832;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 30px;
+    margin: 30px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-inline: 10px;
+    border-radius: 15px;
+    background-color:#424249;
+}
+
+.but:hover {
+    background-color: #323238;
+    cursor: pointer;
+}
+
+.but:active {
+    background-color:#424249;
+    cursor: pointer;
+}
+
+#item-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #323238;
+    border-radius: 15px;    
+    margin: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color:#424249;
+    border-radius: 15px;    
+    margin: 20px;
+}
+
+.card:active {
+    cursor: pointer;
+    background-color:#323238;
+    border-radius: 15px;    
+    margin: 20px;
+}
+
+.number {
+    font-size: 20px;
+    padding: 15px;
+    padding-inline: 30px;
+    color: #0de832;
+    font-family: 'Silkscreen', sans-serif;
+}
+
